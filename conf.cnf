@@ -1,0 +1,29 @@
+[API]
+MYAPIKEY = XYZ
+BASEURL = http://ptsv2.com/
+ENDPOINT_X = t/foo1/post
+
+
+[PROXIES]
+HTTP = https//proxyy.xyz.com.co.nz
+HTTPS = https//proxyy.xyz.com.co.nz
+
+[PORT]
+PORT=5865
+
+[STATUSCODES]
+VALID=200
+INVALID=400
+
+[USERS]
+USER_CREDENTIALS = [("LocustPerformanceUser5@gmail.com", "5678901"),("LocustPerformanceUser4@gmail.com", "456789"),("LocustPerformanceUser3@gmail.com", "345678"),("LocustPerformanceUser2@gmail.com", "234567"),("LocustPerformanceUser1@gmail.com", "123456")]
+
+
+[PAYLOAD]
+payload = {"someParamRange": {"to": 1000,"from": 100},"anotherParamRange": {"to": True,"from": False}}
+
+
+[WAIT_TIME]
+minWait = 1000
+maxWait = 2000
+
